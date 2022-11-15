@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+#wrapper{
+    width: 1500px;
+    background-color: rgb(59, 59, 59);
+    margin: 0 auto;
+    overflow: hidden;
+}
+#header{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background-color: lightslategray;
+}
+#header img{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+#form{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#form label{
+    color: white;
+}
+#form input{
+    margin-left: 10px;
+    border: none;
+    height: 20px;
+}
+#form p{
+    color: white;
+    padding-top: 2px;
+}
+#menu{
+    margin-top: 60px;
+    margin-left: 200px;
+    list-style: none;
+}
+#menu li{
+    float: left;
+    padding: 8px 30px;
+    border: solid white 1px;
+}
+#menu li a{
+    color: white;
+    text-decoration: none;
+}
+#content{
+    width: 1500px;
+    overflow: hidden;
+    height: 700px;
+    background-image: url(img/dialga.jpg);
+}
+#form{
+    height: 280px;
+    width: 370px;
+    border: aqua groove 5px;
+    margin-top: 150px;
+    border-radius: 10px;
+    background-color: gray;
+}
+h2{
+    text-align: center;
+    color: aqua;
+    padding-bottom: 20px;
+}
+#teks{
+    float: left;
+    width: 150px;
+}
+#teks p{
+    margin-top: 10px;
+    font-weight: bold;
+    color: aqua;
+    text-align: left;
+}
+#insert{
+    float: right;
+    width: 200px;
+}
+#insert input[type=text]{
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 180px;
+    margin-right: 50px;
+}
+#button{
+    padding-top: 180px;
+}
+#button a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px 8px 25px;
+    background-color: aqua;
+    border-radius: 5px;
+    font-weight: bold;
+}

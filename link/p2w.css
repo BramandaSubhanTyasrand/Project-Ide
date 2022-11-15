@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+#wrapper{
+    width: 1500px;
+    background-color: rgb(59, 59, 59);
+    margin: 0 auto;
+    overflow: hidden;
+}
+#header{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background-color: lightslategray;
+}
+#header img{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+#form{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#form label{
+    color: white;
+}
+#form input{
+    margin-left: 10px;
+    border: none;
+    height: 20px;
+}
+#form input[type=text]{
+    border-radius: 5px;
+    width: 200px;
+    padding-left: 5px;
+}
+#form input[type=submit]{
+    border-radius: 5px;
+    width: 100px;
+    font-weight: bold;
+}
+#form p{
+    color: white;
+    padding-top: 2px;
+}
+#menu{
+    margin-top: 60px;
+    margin-left: 200px;
+    list-style: none;
+}
+#menu li{
+    float: left;
+    padding: 8px 30px;
+    border: solid white 1px;
+}
+#menu li a{
+    color: white;
+    text-decoration: none;
+}
+#content{
+    width: 1440px;
+    overflow: hidden;
+}
+.list-item{
+    float: left;
+}
+.list-item h2{
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.list-item h3{
+    color: rgb(121, 121, 255);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.list-item p{
+    color: white;
+    padding-left: 20px;
+}
+.price b{
+    color: white;
+    padding-left: 20px;
+}
+.price input{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.price {
+    color: white;
+    padding-bottom: 20px;
+}
+.item{
+    float: left;
+}
+.item h2{
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.item h3{
+    color: rgb(121, 121, 255);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.item p{
+    color: white;
+    padding-left: 20px;
+}
+.item input{
+    float: right;
+    margin-left: 10px;
+}
+.member{
+    float: left;
+}
+.member h2{
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.member h3{
+    color: rgb(121, 121, 255);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.member p{
+    color: white;
+    padding-left: 20px;
+}
+.member input{
+    float: right;
+    margin-left: 10px;
+}
+#footer p{
+    background-color: black;
+    color: white;
+    width: 1500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
